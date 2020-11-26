@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'de.oszimt.ls'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+/**
+ * 1st approach: Setting encoding during compilation in Java and Test classes
+ */
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+/**
+ * 2nd approach: Setting encoding during compilation in Java and Test classes
+ */
+tasks.withType(JavaCompile) {
+  options.encoding = "UTF-8"
+}
+
+tasks.withType(Test) {
+  systemProperty "file.encoding", "UTF-8"
+}
+
