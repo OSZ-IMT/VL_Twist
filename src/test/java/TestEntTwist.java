@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 
 public class TestEntTwist extends TestBase {
 
+    private static final String[] symbol = new String[]{".",",","!",".",";",":"};
+
     @Test
     public void testShortAb(){
         assertEquals("ab",Twist.enttwisten("ab"));
@@ -23,7 +25,7 @@ public class TestEntTwist extends TestBase {
     }
 
     @Test
-    public void testShortAbLd(){
+    public void testShortAbSd(){
         assertEquals("ob o",Twist.enttwisten("ob o"));
     }
 
@@ -63,7 +65,7 @@ public class TestEntTwist extends TestBase {
         //build
         for (int i=0,l=rnd.nextInt(7)+5;i<l;i++){
             String word = rndKey(data);
-            String symb = ((char)(rnd.nextInt(31)+33))+" ";
+            String symb = symbol[rnd.nextInt(symbol.length)]+" ";
             twist.append(data.get(word)).append(symb);
             org.append(word).append(symb);
         }

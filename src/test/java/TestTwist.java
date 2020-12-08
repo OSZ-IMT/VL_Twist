@@ -23,7 +23,7 @@ public class TestTwist extends TestBase {
     }
 
     @Test
-    public void testShortAbLd(){
+    public void testShortAbSd(){
         assertEquals("ac d",Twist.twisten("ab d"));
     }
 

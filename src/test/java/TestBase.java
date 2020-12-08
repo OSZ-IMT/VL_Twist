@@ -103,7 +103,7 @@ public class TestBase {
         hashmap.put("bei","bei");
         hashmap.put("Bereits","Bietres");
         hashmap.put("bietet","btieet");
-        hashmap.put("Brauch,","Bcrauh");
+        hashmap.put("Brauch","Bcrauh");
         hashmap.put("brennend","bnrnneed");
         hashmap.put("britische","bhtcsriie");
         hashmap.put("carte","ctare");
@@ -186,7 +186,7 @@ public class TestBase {
         hashmap.put("Programmiererin","Perigmrioeamrrn");
         hashmap.put("Programmiersprachen","Pimsrrcrepmreahogan");
         hashmap.put("rannte","rntnae");
-        hashmap.put("Rechen-Mechanik","RiMcheeneachnk");
+        hashmap.put("Rechenmechanik","RiMcheeneachnk");
         hashmap.put("rechten","rcetehn");
         hashmap.put("Restaurant","Rruantsaet");
         hashmap.put("sagen","sgean");
