@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="woerterliste">
+    <output-path>$PROJECT_DIR$/out/artifacts/woerterliste</output-path>
+    <root id="root" />
+  </artifact>
+</component>
