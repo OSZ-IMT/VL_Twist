@@ -7,7 +7,8 @@ public class Twist {
      * @param args, args
      */
     public static void main(String[] args) {
-        //Nutze den Bereich zum Testen deiner Eingaben:
+        //Nutzung den Bereich zum Testen der Eingaben.
+        //geht nicht in die Bewertung mit ein.
     }
 
     /**

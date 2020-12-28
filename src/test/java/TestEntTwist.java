@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class TestEntTwist extends TestBase {
 
-    private static final String[] symbol = new String[]{".",",","!",".",";",":"};
+    private static final String[] symbol = new String[]{".",",","!","?",";",":"};
 
     @Test
     public void testShortAb(){
@@ -41,8 +41,8 @@ public class TestEntTwist extends TestBase {
     public void testSentence(){
         HashMap<String, String> data = testData();
 
-        StringBuilder twist = new StringBuilder();
-        StringBuilder org = new StringBuilder();
+        StringBuilder twist = new StringBuilder("nichtenttwistbar ");
+        StringBuilder org = new StringBuilder("nichtenttwistbar ");
 
         //build
         for (int i=0,l=rnd.nextInt(7)+5;i<l;i++){
@@ -69,6 +69,7 @@ public class TestEntTwist extends TestBase {
             twist.append(data.get(word)).append(symb);
             org.append(word).append(symb);
         }
+
 
         //convert
         assertEquals(org.toString(), Twist.enttwisten(twist.toString()));

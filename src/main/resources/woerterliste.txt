@@ -1736,7 +1736,7 @@ Alexandras
 Alexandria
 Alexandrias
 Aales
-alles
+Alles
 allesamt
 allezeit
 Alf
@@ -23679,8 +23679,8 @@ Atheistinnen
 Atheisten
 adele
 adelig
-adeliger
-adelige
+Adeliger
+Adelige
 adeliges
 adeligem
 adeligen
@@ -144042,6 +144042,7 @@ Crash
 Crashs
 Grads
 Gras
+Grasplatz
 Grats
 Graz
 krass
@@ -166546,6 +166547,7 @@ Mentorinnen
 Mentors
 Memo
 Menü
+Menüreihenfolge
 Memoiren
 Menüfunktion
 Menüfunktionen
@@ -193658,6 +193660,7 @@ plantschte
 Planstelle
 Planstellen
 Planstellenbesetzung
+Planungssicherheit
 planschtet
 plantschtet
 planschtest
@@ -208668,6 +208671,7 @@ residualem
 residualen
 Residuum
 Residuums
+Rechenmechanik
 recycel
 recycele
 recyceln
