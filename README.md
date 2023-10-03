@@ -19,9 +19,6 @@ Jerry kann das kaum glauben: wenn ein Mensch einen Text „enttwisten“ kann, s
 
 Im Repository ist die Woerterliste hinterlegt.
 
-## Abgabe
-Via Classroom: [https://classroom.github.com/a/7pjaBdBH](https://classroom.github.com/a/7pjaBdBH)
-
 ## Bewertung
 (Alles per autograding)
 * 35% Wort twisten
